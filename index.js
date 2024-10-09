@@ -9,17 +9,11 @@
 // foo();
 
 // function expression called divide
-const divide = function(a, b){
-    return a/b;
-}
+const divide = (a,b) => a/b
 
 // An arrow function called square
-const square = function(x,){
-    return x * x;
-}
+const square = (a) => a*a
 
 //An arroww function called add
 
-const add = function (a, b){
-    return a + b;
-}
+const add = (a,b) => a + b
